@@ -17,8 +17,19 @@ header {
     background-color: black;
 }
 
-.portfolio div[class^="col"] {
+#portfolio div[class^="col"] {
     height: 100px;
     background-color: yellow;
     border: 1px solid black;
 }
+
+#about {
+    margin-top: 20px;
+    background-color: #1abc9c;
+    padding-bottom: 20px;
+}
+
+#about p {
+    padding: 10px 50px;
+}
+
