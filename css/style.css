@@ -33,3 +33,10 @@ header {
     padding: 10px 50px;
 }
 
+#contact-me span {
+    margin: 10px 50px;
+}
+
+#contact-me span {
+    border-bottom: 1px solid gray;
+}
