@@ -1,8 +1,3 @@
-header {
-    background-color: red;
-    color: white;
-}
-
 /* 
 Extra small <576px 
 Small ≥576px (sm)
@@ -11,3 +6,19 @@ Large ≥992px (lg)
 X-Large ≥1200px (xl)
 XX-Large ≥1400px (xxl)
 */
+
+header {
+    background-color: red;
+    color: white;
+}
+
+.jumbo {
+    height: 200px;
+    background-color: black;
+}
+
+.portfolio div[class^="col"] {
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
