@@ -11,7 +11,7 @@ header {
     background-color: red;
 }
 
-body {
+body section:nth-child(odd), footer {
     color: white;
 }
 
