@@ -40,3 +40,17 @@ header {
 #contact-me span {
     border-bottom: 1px solid gray;
 }
+
+h2 {
+    padding-top: 1rem;
+}
+
+#info {
+    background-color: #3a546d;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+#info div[class^="col"] {
+    text-align: justify;
+}
