@@ -58,7 +58,7 @@ a {
 
 /* PORTFOLIO */
 
-#portfolio .bar {
+#portfolio .bar, #contact-me .bar {
     background-color: black;
 }
 
@@ -75,14 +75,32 @@ a {
     border: 1px solid white;
 }
 
-#contact-me span {
-    margin: 10px 50px;
+
+/* CONTACT ME */
+
+#contact-me textarea {
+    height: 150px;
 }
 
-#contact-me span {
+#contact-me .form-control {
+    border-radius: 0;
+    border: 0;
     border-bottom: 1px solid gray;
+    box-shadow: none;
+    padding: 0;
 }
 
+#contact-me .form-label {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#contact-me .btn {
+    background-color: #1abc9c;
+    border: none;
+}
+
+/* INFO */
 
 #info {
     background-color: #3a546d;
