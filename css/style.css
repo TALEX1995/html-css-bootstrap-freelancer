@@ -45,6 +45,8 @@ body section:nth-child(odd), footer {
 
 
 
+/* PORTFOLIO */
+
 
 #portfolio div[class^="col"] {
     height: 100px;
