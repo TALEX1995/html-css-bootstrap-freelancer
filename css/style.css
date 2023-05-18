@@ -31,6 +31,12 @@ body section:nth-child(odd), footer {
     color: white;
 }
 
+h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
 /* JUMBO */
 
 .jumbo {
@@ -40,18 +46,21 @@ body section:nth-child(odd), footer {
 .bar {
     height: 6px;
     border-radius: 3px;
+}
+
+.jumbo .bar {
     background-color: white;
+}
+
+/* PORTFOLIO */
+
+#portfolio .bar {
+    background-color: black;
 }
 
 
 
-/* PORTFOLIO */
-
-
 #portfolio div[class^="col"] {
-    height: 100px;
-    background-color: yellow;
-    border: 1px solid black;
 }
 
 #about {
@@ -72,9 +81,6 @@ body section:nth-child(odd), footer {
     border-bottom: 1px solid gray;
 }
 
-h2 {
-    padding-top: 1rem;
-}
 
 #info {
     background-color: #3a546d;
