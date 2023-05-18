@@ -21,20 +21,30 @@ header {
     box-shadow: none;
 }
 
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(301deg) brightness(105%) contrast(101%);
-}
+} */
 
-
+/* GENERIC */
 
 body section:nth-child(odd), footer {
     color: white;
 }
 
+/* JUMBO */
+
 .jumbo {
-    height: 200px;
-    background-color: black;
+    background-color: #1abc9c;
 }
+
+.bar {
+    height: 6px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+
 
 #portfolio div[class^="col"] {
     height: 100px;
