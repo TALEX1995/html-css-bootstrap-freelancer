@@ -36,6 +36,10 @@ h2 {
     padding-bottom: 2rem;
 }
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
 
 /* JUMBO */
 
@@ -48,7 +52,7 @@ h2 {
     border-radius: 3px;
 }
 
-.jumbo .bar {
+.jumbo .bar, #about .bar {
     background-color: white;
 }
 
@@ -59,9 +63,7 @@ h2 {
 }
 
 
-
-#portfolio div[class^="col"] {
-}
+/* ABOUT */
 
 #about {
     margin-top: 20px;
@@ -69,8 +71,8 @@ h2 {
     padding-bottom: 20px;
 }
 
-#about p {
-    padding: 10px 50px;
+#about .btn {
+    border: 1px solid white;
 }
 
 #contact-me span {
